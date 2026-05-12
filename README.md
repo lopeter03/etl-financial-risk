@@ -1,7 +1,8 @@
-ETL Pipeline for Financial Risk Data
+ETL Pipeline with Data Quality Implementation on Finance
 
 Overview
-This project demonstrates an end-to-end ETL pipeline for Basel III financial risk reporting. It covers:
+This project demonstrates an end-to-end ETL pipeline for Basel III financial risk reporting,
+with integrated Data Quality functions mapped across ETL stages. It covers:
 - Business Requirements (BRS)
 - Functional Specification (FS)
 - Installation Guideline
@@ -61,5 +62,5 @@ This file includes the mapping:
 
 ETL Stages → ETL Functions → DQ Functions → DQ Dimensions → Case Mapping → FS Items
 
-It provides the structured link between ETL processes and data quality checks.  
+It provides the structured link between ETL processes and data quality checks.
 For anyone interested in the technical design and test plan, please refer to this document.
