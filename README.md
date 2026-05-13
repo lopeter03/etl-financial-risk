@@ -12,7 +12,8 @@ with integrated Data Quality functions mapped across ETL stages. It covers:
 
 Deliverables include ETL scripts, SQL schema, sample data, visualization layer, and documentation.
 
-Project Structure
+# Project Structure
+
 etl-financial-risk/
 │
 ├── basel_demo.db
@@ -44,6 +45,7 @@ etl-financial-risk/
     ├── load_sample_data.py
     ├── capital_adequacy_schema.sql
     └── schema_completeness.sql
+
 
 
 Deliverables
