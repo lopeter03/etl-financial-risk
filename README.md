@@ -49,6 +49,7 @@ etl-financial-risk/
 
 
 
+
 Deliverables
 - ETL scripts with logging and validation
 - Basel III ratio automation modules
