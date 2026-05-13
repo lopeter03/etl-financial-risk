@@ -14,35 +14,37 @@ Deliverables include ETL scripts, SQL schema, sample data, visualization layer, 
 
 Project Structure
 etl-financial-risk/
-│  basel_demo.db
-│  requirements.txt
-│  README.md
 │
-├─dashboard/
-│      app.py
-│      main_dashboard.py
+├── basel_demo.db
+├── requirements.txt
+├── README.md
 │
-├─docs/
-│      ETL Pipeline for Financial Risk Data (BRS).docx
-│      ETL Pipeline for Financial Risk Data (FS).docx
-│      ETL Pipeline for Financial Risk Data (Installation Guideline).docx
-│      ETL Pipeline for Financial Risk Data (Schema Guideline).docx
-│      ETL Pipeline for Financial Risk Data (Automation Guideline).docx
-│      ETL Pipeline for Financial Risk Data (Dashboard Guideline).docx
+├── dashboard/
+│   ├── app.py
+│   └── main_dashboard.py
 │
-├─etl_scripts/
-│      run_pipeline.py
-│      stress_test.py
-│      basel_ratios.csv
-│      Basel_Test_Dataset.csv
-│      validation_report.txt
-│      (supporting ETL + DQ scripts)
+├── docs/
+│   ├── ETL Pipeline for Financial Risk Data (BRS).docx
+│   ├── ETL Pipeline for Financial Risk Data (FS).docx
+│   ├── ETL Pipeline for Financial Risk Data (Installation Guideline).docx
+│   ├── ETL Pipeline for Financial Risk Data (Schema Guideline).docx
+│   ├── ETL Pipeline for Financial Risk Data (Automation Guideline).docx
+│   └── ETL Pipeline for Financial Risk Data (Dashboard Guideline).docx
 │
-└─sql_schema/
-       init_db.py
-       load_sample_data.py
-       capital_adequacy_schema.sql
-       schema_completeness.sql
+├── etl_scripts/
+│   ├── run_pipeline.py
+│   ├── stress_test.py
+│   ├── basel_ratios.csv
+│   ├── Basel_Test_Dataset.csv
+│   ├── validation_report.txt
+│   └── (supporting ETL + DQ scripts)
+│
+└── sql_schema/
+    ├── init_db.py
+    ├── load_sample_data.py
+    ├── capital_adequacy_schema.sql
+    └── schema_completeness.sql
+
 
 Deliverables
 - ETL scripts with logging and validation
